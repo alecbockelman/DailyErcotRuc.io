@@ -7,17 +7,11 @@ Created on Tue Jun 21 13:21:21 2022
 
 import pandas as pd
 import requests
-from io import StringIO
-import datetime
-import numpy as np
-from bs4 import BeautifulSoup
 from lxml import html
 from zipfile import ZipFile
 import zipfile as zp
 import os
 import os.path
-from os import path
-import csv
   
 
 days_ago = 0
