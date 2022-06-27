@@ -108,13 +108,13 @@ with pd.ExcelWriter(output) as writer:
     
  
 
-for file in files:   
-      # specifying the zip file name
-      file_name = file
-      if datetime.date.today().strftime("%Y%m%d") not in file_name and zp.is_zipfile(file_name) and ".xlsx" not in file_name:
-               os.remove(file_name)
- #     if ".csv"  in file_name :
-  #             os.remove(file_name)
+# for file in files:   
+#       # specifying the zip file name
+#       file_name = file
+#       if datetime.date.today().strftime("%Y%m%d") not in file_name and zp.is_zipfile(file_name) and ".xlsx" not in file_name:
+#                os.remove(file_name)
+#  #     if ".csv"  in file_name :
+#   #             os.remove(file_name)
                   
           
     
